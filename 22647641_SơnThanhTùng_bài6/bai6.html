@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+        margin: 0px;
+        padding: 1px;
+        box-sizing: border-box;
+        max-width: 1000px;
+        }
+        .container{
+        max-width: 680px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #99CDFF;
+        }
+        .head{
+            border-left: 30px;
+            padding-left: 170px;
+        }
+        .main{
+            border-left: 30px;
+            padding-left: 30px;
+        }
+        .button{
+            padding-left: 200px;
+        }
+        .Address{
+            width: 200px;
+        }
+    </style>
+    <div class="container">
+        <div class="head">
+            <img src="anh_bai6.png" alt="anh_bai6">
+            <h1>&emsp;Registration Form</h1>
+            <h4>Register your Jackson Electronics product here</h4>
+        </div>
+        <div class="main">
+            <table>
+                <tr>
+                    <td><label for=" First Name">First Name:</label></td>
+                    <td>
+                        <input type="text" id="First Name" style="width: 120px;">
+                        <label for="Last Name">Last Name</label>
+                        <input type="text" id="Last Name" style="width: 100px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Address #1">Address #1:</label></td>
+                    <td ><input type="text" class="Address"></td>
+                </tr>
+                <tr>
+                    <td><label for="Address #2">Address #2:</label></td>
+                    <td><input type="text" class="Address" ></td>
+                </tr>
+                <tr>
+                    <td><label for="City">City: </label></td>
+                    <td><input type="text" id="City" style="width: 150px;">
+                    <label for="State">State:</label>
+                    <input type="text" id="State" style="width: 40px;">
+                    <label for="Zip">Zip:</label>
+                    <input type="text" id="Zip" style="width: 60px;"></td>
+                </tr>
+                <tr>
+                    <td><label for="Country">Country: </label></td>
+                    <td><input type="text" placeholder="Country" value="United States"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><hr></td>
+                </tr>
+                <tr>
+                    <td><label for="Product">Product:</label></td>
+                    <td>
+                        <select>
+                            <option value="1">ScanMaster</option>
+                            <option value="1">Mouse</option>
+                            <option value="1">CPU</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Date Purchased">Date Purchased:</label></td>
+                    <td><input type="text" id="Date Purchased"></td>
+                </tr>
+                <tr>
+                    <td><label for="Serial">Serial #:</label></td>
+                    <td><input type="text" id="Serial"></td>
+                </tr>
+                <tr>
+                    <td><label for="User For">User For:</label></td>
+                    <td>
+                        <input type="radio" name="tron" value="home" id="home">
+                        <label for="home" class="used1">Home</label>
+                        &emsp14;&emsp14;&emsp13;&emsp14;&emsp14;
+
+                        <input type="radio" name="tron" value="education" id="education">
+                        <label for="education">Education Institution</label>
+                        <br>
+
+                        <input type="radio" name="tron" value="business" id="business">
+                        <label for="business" class="used1">Business</label>
+                        &emsp14;
+                        <input type="radio" name="tron" value="other" id="other">
+                        <label for="other">Other</label>
+                        <br>
+                         <input type="radio" name="tron" value="govermment" id="govermment">
+                        <label for="govermment" class="used1">Govermment</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="system">System (check all that apply): </label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="window"> <label for="window">Windows</label>
+                        <input type="checkbox" id="UNIX"><label for="UNIX">UNIX</label>                        
+                        <br>
+                        <input type="checkbox" id="macintosh"><label for="macintosh">Macintosh</label>
+                        <input type="checkbox" id="other1"><label for="other1">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><hr></td>
+                </tr>
+                <tr>
+                    <td><label for="comments">Comments? </label></td>
+                    <td><textarea name="comments" id="comments" style="width: 300px; height: 100px;"></textarea></td>
+                </tr>
+            </table>
+        </div>
+        <div class="button">
+            <tr>
+                <td><input type="submit" value="Click to register"></td>
+                <td><input type="submit" value="Click to cancel"></td>
+            </tr>
+        </div>
+    </div>
+</body>
+</html>
